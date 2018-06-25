@@ -1,0 +1,1 @@
+make&&CER="2246A8335929D1C97137054867BB76BB297CC597" make codesign&&make clean

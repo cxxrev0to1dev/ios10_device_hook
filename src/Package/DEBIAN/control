@@ -1,0 +1,17 @@
+Package: com.appstore.device.hook
+Name: com.appstore.device.hook
+Version: 1.2.9
+Description: zbk aso core hook
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: dengtao
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

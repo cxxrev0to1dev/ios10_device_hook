@@ -1,0 +1,309 @@
+{
+    ActiveWirelessTechnology = kCTWirelessTechnologyUnknown;
+    AirplaneMode = 0;
+    AllowYouTube = 1;
+    AllowYouTubePlugin = 1;
+    BasebandCertId = 3554301762;
+    BasebandChipId = 7282913;
+    BasebandFirmwareManifestData =     {
+        AKeyStatus = 2;
+        ProvisioningManifestData = <30820218 02010130 0b06092a 864886f7 0d010105 a0673065 03310073 b7d94b6a f28ec93c c0072b7a 4f622327 a085fd57 e2ed35b8 ba040040 67296601 3e7a299d 356f6291 5e65a548 0a34ad04 30548890 8c4ecee3 04b0ecb8 e342ac43 29453f57 05785373 18af25fc b7f6637a eb6d0ec7 f5002a3b 3da14d1a 33a1416a 42317a9f 3f042b82 c55a9f40 04e1206f 009f4b14 04bfc3e8 4a287d03 d80985f1 6c1abe2b b56be83a 9f876b07 35200106 4305269f 876d0735 20010643 05269f87 6f114438 3a43463a 39433a45 463a3736 3a42429f 87701144 383a4346 3a39433a 45463a37 363a4230 9f877111 44383a43 463a3943 3a45463a 37363a42 43048180 48f7ed36 2521ec6a c2d41396 2704a73d 4734640b 1d800db2 de50cf79 faef61fa 41d32b0f 90f8041e cd9b16c2 2a96e267 c0bfdfc2 e57b87c8 ec142eb6 7b4cc41f 6230ea02 e86fcddc 4985b1a1 932339e4 29ae6ee5 ce9f3490 b035a6de 5f7a7404 aabac114 ca753c5c 9d1d7353 9dc9dd97 50f0082e e35a49c9 b8115a69 20c689c9 a3819d30 0b06092a 864886f7 0d010101 03818d00 30818902 818100a5 a21d81a7 f649a345 b4f5b658 51cf18e9 ac324a91 5a363c12 105c4634 448eda44 3f3762f7 7e1beeb5 d1847f41 c46cf47e 31572aff 29f955a1 e6ddfff3 1bb34a82 49def0cb 6df5625f 6fcd1a97 051a0b50 311801a6 8904697a 42c6fdc8 d6b127c9 45316c8e 109cc01b 31bce619 68c10609 f51d53da 218171db 2fb2ede5 c2c6d502 03010001>;
+        RootManifestData = <308203db 300b0609 2a864886 f70d0101 05318201 a29f3f04 2b82c55a 9f4004e1 206f009f 44143d69 c3ecee84 6807feee deadec00 b82dfe27 40fc9f4a 14a201f5 52dd8976 3a7d3efc 0176b8f2 f69b44ff 8e9f4b14 bc1b93b2 23f95035 9135d28e 2da6b1a0 dfce5e3f 9f580442 57dad39f 814814ec c404532b f31b8823 8d973b2a c34d0154 d2f20e9f 814914ae a5cce143 668d0efb 4ce1f2c9 4c966a64 96c6aa9f 815f146b 75e1444b 73ca74d6 b72406aa 2fd15e8a d749519f 81601432 a7c65052 ec1d038b 01ad126a 8a548618 1dbc249f 81611446 2802133e bd814ca6 87651dc8 9770655c 7be0879f 81621433 2d3fabf8 faa185d8 9d680551 a2724d65 1572959f 817004a4 1901a49f 81711482 549f2663 6aad2b30 15fc8286 83cea589 2154919f 8172140c 5416924b 4558d87d d06da139 fc0ed78a 046eb29f 817304a4 1911a49f 81741447 6a00fb2a 0594cfbe 71dc3eb6 1920924b bac05a9f 81751478 e0842eac b6c69c5c 7463ef98 363739d7 931efa9f 817614ce 5155462f 1bb08a34 32d62225 7ec0bc82 711c0f9f 81771447 ad197ec3 aa657f8f 77f52711 a12159f3 6f56569f 81781448 235366b8 73482780 acf15d8a b3b7e333 3e87fd04 820100c9 d458a050 f7857d6a 6013fab0 6d86ff6c 6ae79118 99a2654e a61a776c adf1e141 5ecbe2f9 6da01e5b bcd45a55 7d5e5acc 8aa39f33 c26a4e94 3d7b0067 1f77877a e2caeb13 9e04a9e3 60b4f349 7b47479e 5778c2a9 595e2093 463bd7a2 05850373 aa2c6a33 792b0753 dbe9bd1d bc2b6e2f fcbf77ce 9fb8ef3f d28c45c6 71aa73e5 80dfb1c5 f58b5cdf 233be871 b8cdcb96 28258372 cc58d580 885183c9 dd553fa2 0a82445c a3489726 9235638e 459833a0 112cad9a 859d9d88 777c412f 5be4a3a1 433029de da7a487e 2e9bff41 a2249000 85b6cb9a 64828f9a 03409049 3a42d410 964a0fc5 8f7f185d 5037bb1d 212f1397 0159215b 6625b671 6bab3fb2 036291a3 82012030 0b06092a 864886f7 0d010101 0382010f 00308201 0a028201 0100ca51 6a9d4b4e a7348d4d b73b0e89 d66de35b 406b502d 587063c1 bc371542 1224bcf5 f98b16ea cd15b87f 9d069879 7ef3fb80 06ac07ad 9c91c9cc 9829434e 5fef25ec 1e9000ed dd893011 ea2eb44f 1e46e61c 4da4aa8b cdc1d869 ead69055 f5f26ea6 3c4c96d3 196dcb9a e1272705 6e70e55a 43dccadc 6a19e391 ebd1dc31 83126ad2 c4c8a254 29b042bf d287f721 22288d3d f8e856f7 58a2ef86 2db5ad4d 9cae5cc8 f165a0e2 0109697d c6893659 d479747d 308a61d3 1f4e26c2 52710255 be09d81b e2e05cf8 7e8e8f8e 3bc9ff77 b40f7144 a5cf50ff c8c30661 71074cc8 e30283d6 59dc60e6 ee454db1 50527fd9 206a5bf3 b660cd03 362987be 572778e3 2b490203 010001>;
+        RootManifestStatus = 0;
+        SKeyStatus = 0;
+    };
+    BasebandFirmwareVersion = "7.21.00";
+    BasebandKeyHashInformation =     {
+        AKeyStatus = 2;
+        SKeyHash = <ecc40453 2bf31b88 238d973b 2ac34d01 54d2f20e>;
+        SKeyStatus = 0;
+    };
+    BasebandSerialNumber = <2b82c55a>;
+    BatteryCurrentCapacity = 49;
+    BatteryIsCharging = 1;
+    BatteryIsFullyCharged = 0;
+    BluetoothAddress = "d8:cf:9c:ef:76:b0";
+    BoardId = 0;
+    BuildVersion = 14C92;
+    CPUArchitecture = arm64;
+    CarrierBundleInfoArray =     (
+    );
+    CarrierInstallCapability = 0;
+    ChipID = 35168;
+    ComputerName = iPhone;
+    DeviceClass = iPhone;
+    DeviceClassNumber = 1;
+    DeviceColor = "#e1e4e3";
+    DeviceName = iPhone;
+    DeviceSupports1080p = 1;
+    DeviceSupports3DImagery = 1;
+    DeviceSupports3DMaps = 1;
+    DeviceSupports4G = 1;
+    DeviceSupports720p = 1;
+    DeviceSupports9Pin = 1;
+    DeviceSupportsLineIn = 0;
+    DeviceSupportsNavigation = 1;
+    DeviceSupportsSimplisticRoadMesh = 1;
+    DeviceSupportsTethering = 1;
+    DeviceVariant = B;
+    DieId = 8752901943344;
+    ExternalChargeCapability = 0;
+    ExternalPowerSourceConnected = 1;
+    FaceTimeBitRate2G = 100;
+    FaceTimeBitRate3G = 228;
+    FaceTimeBitRateLTE = 228;
+    FaceTimeBitRateWiFi = 2000;
+    FaceTimeDecodings =     (
+                {
+            f = 15;
+            h = 240;
+            w = 320;
+        },
+                {
+            f = 30;
+            h = 240;
+            w = 320;
+        },
+                {
+            f = 15;
+            h = 368;
+            w = 480;
+        },
+                {
+            f = 30;
+            h = 368;
+            w = 480;
+        }
+    );
+    FaceTimeEncodings =     (
+                {
+            f = 15;
+            h = 240;
+            w = 320;
+        },
+                {
+            f = 30;
+            h = 240;
+            w = 320;
+        },
+                {
+            f = 15;
+            h = 368;
+            w = 480;
+        },
+                {
+            f = 30;
+            h = 368;
+            w = 480;
+        },
+                {
+            f = 30;
+            h = 480;
+            w = 640;
+        },
+                {
+            f = 30;
+            h = 768;
+            w = 1024;
+        },
+                {
+            f = 30;
+            h = 720;
+            w = 1280;
+        }
+    );
+    FirmwareNonce = <69ffcc1a d0faa6be 904fd421 5c290358 686a4916>;
+    FirmwarePreflightInfo =     {
+        CertID = 3554301762;
+        ChipID = 7282913;
+        ChipSerialNo = <2b82c55a>;
+        FusingStatus = 3;
+        Nonce = <69ffcc1a d0faa6be 904fd421 5c290358 686a4916>;
+        PkHash = <d3da5742 03397236 3a4c924d 38ecceff f47926e1 8aaa31c4 95fb2105 b9f1ae18>;
+        SKeyHash = <ecc40453 2bf31b88 238d973b 2ac34d01 54d2f20e>;
+        SKeyStatus = 0;
+        VendorID = 3;
+    };
+    FirmwareVersion = "iBoot-3406.30.8";
+    ForwardCameraCapability = 1;
+    HWModelStr = N51AP;
+    HardwarePlatform = s5l8960x;
+    HasBaseband = 1;
+    HasInternalSettingsBundle = 0;
+    HasSpringBoard = 1;
+    InternalBuild = 0;
+    InternationalMobileEquipmentIdentity = 352001064305263;
+    InverseDeviceID = 0f9038cc1062c9ed647110082fe4967970fd2472;
+    IsSimulator = 0;
+    IsThereEnoughBatteryLevelForSoftwareUpdate = 1;
+    IsUIBuild = 1;
+    MinimumSupportediTunesVersion = "12.2.2";
+    MobileSubscriberCountryCode = "";
+    MobileSubscriberNetworkCode = "";
+    ModelNumber = ME336;
+    PanoramaCameraCapability = 1;
+    PartitionType = "";
+    ProductName = "iPhone OS";
+    ProductType = "iPhone6,1";
+    ProductVersion = "10.2";
+    ProximitySensorCalibration = <4f4d0300 0d0a4239 10030000 00005e01 0000f500 03009339 eb030200 f964f602 ee025000 9f147802 b22df518 000000fb 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000>;
+    RearCameraCapability = 1;
+    RegionCode = J;
+    RegionInfo = "J/A";
+    RegionalBehaviorAll =     {
+        RegionalBehaviorChinaBrick = 0;
+        RegionalBehaviorEUVolumeLimit = 0;
+        RegionalBehaviorGB18030 = 0;
+        RegionalBehaviorGoogleMail = 0;
+        RegionalBehaviorNTSC = 1;
+        RegionalBehaviorNoPasscodeLocationTiles = 0;
+        RegionalBehaviorNoVOIP = 0;
+        RegionalBehaviorNoWiFi = 0;
+        RegionalBehaviorShutterClick = 1;
+        RegionalBehaviorValid = 1;
+        RegionalBehaviorVolumeLimit = 0;
+        SoftwareBehavior = <19000000 00000000 00000000 00000000>;
+    };
+    RegionalBehaviorChinaBrick = 0;
+    RegionalBehaviorEUVolumeLimit = 0;
+    RegionalBehaviorGB18030 = 0;
+    RegionalBehaviorGoogleMail = 0;
+    RegionalBehaviorNTSC = 1;
+    RegionalBehaviorNoPasscodeLocationTiles = 0;
+    RegionalBehaviorNoVOIP = 0;
+    RegionalBehaviorNoWiFi = 0;
+    RegionalBehaviorShutterClick = 1;
+    RegionalBehaviorVolumeLimit = 0;
+    RequiredBatteryLevelForSoftwareUpdate = "0.5";
+    SBAllowSensitiveUI = 0;
+    SBCanForceDebuggingInfo = 0;
+    SIMTrayStatus = kCTSIMSupportSIMTrayInsertedNoSIM;
+    SerialNumber = F17MJ6PFFFFL;
+    ShouldHactivate = 0;
+    SigningFuse = 1;
+    SoftwareBehavior = <19000000 00000000 00000000 00000000>;
+    SoftwareBundleVersion = "";
+    SupportedDeviceFamilies =     (
+        1
+    );
+    SystemKey =     (
+        UniqueDeviceID,
+        SerialNumber,
+        UniqueChipID,
+        ModelNumber,
+        InverseDeviceID,
+        UniqueDeviceIDData,
+        SIMTrayStatus,
+        DieId,
+        CPUArchitecture,
+        PartitionType,
+        UserAssignedDeviceName,
+        BluetoothAddress,
+        RequiredBatteryLevelForSoftwareUpdate,
+        BatteryIsFullyCharged,
+        BatteryIsCharging,
+        BatteryCurrentCapacity,
+        ExternalPowerSourceConnected,
+        BasebandSerialNumber,
+        BasebandCertId,
+        BasebandChipId,
+        BasebandFirmwareManifestData,
+        BasebandFirmwareVersion,
+        BasebandKeyHashInformation,
+        CarrierBundleInfoArray,
+        CarrierInstallCapability,
+        InternationalMobileEquipmentIdentity,
+        MobileSubscriberCountryCode,
+        MobileSubscriberNetworkCode,
+        ChipID,
+        ComputerName,
+        DeviceVariant,
+        HWModelStr,
+        BoardId,
+        HardwarePlatform,
+        DeviceName,
+        DeviceColor,
+        DeviceClassNumber,
+        DeviceClass,
+        BuildVersion,
+        ProductName,
+        ProductType,
+        ProductVersion,
+        FirmwareNonce,
+        FirmwareVersion,
+        FirmwarePreflightInfo,
+        AirplaneMode,
+        AllowYouTube,
+        AllowYouTubePlugin,
+        MinimumSupportediTunesVersion,
+        ProximitySensorCalibration,
+        RegionCode,
+        RegionInfo,
+        RegulatoryIdentifiers,
+        SBAllowSensitiveUI,
+        SBCanForceDebuggingInfo,
+        SDIOManufacturerTuple,
+        SDIOProductInfo,
+        ShouldHactivate,
+        SigningFuse,
+        SoftwareBehavior,
+        SoftwareBundleVersion,
+        SupportedDeviceFamilies,
+        TotalSystemAvailable,
+        AllDeviceCapabilities,
+        AppleInternalInstallCapability,
+        ExternalChargeCapability,
+        ForwardCameraCapability,
+        PanoramaCameraCapability,
+        RearCameraCapability,
+        HasAllFeaturesCapability,
+        HasBaseband,
+        HasInternalSettingsBundle,
+        HasSpringBoard,
+        InternalBuild,
+        IsSimulator,
+        IsThereEnoughBatteryLevelForSoftwareUpdate,
+        IsUIBuild,
+        RegionalBehaviorAll,
+        RegionalBehaviorChinaBrick,
+        RegionalBehaviorEUVolumeLimit,
+        RegionalBehaviorGB18030,
+        RegionalBehaviorGoogleMail,
+        RegionalBehaviorNTSC,
+        RegionalBehaviorNoPasscodeLocationTiles,
+        RegionalBehaviorNoVOIP,
+        RegionalBehaviorNoWiFi,
+        RegionalBehaviorShutterClick,
+        RegionalBehaviorVolumeLimit,
+        ActiveWirelessTechnology,
+        WifiAddress,
+        WifiAddressData,
+        WifiVendor,
+        FaceTimeBitRate2G,
+        FaceTimeBitRate3G,
+        FaceTimeBitRateLTE,
+        FaceTimeBitRateWiFi,
+        FaceTimeDecodings,
+        FaceTimeEncodings,
+        FaceTimePreferredDecoding,
+        FaceTimePreferredEncoding,
+        DeviceSupportsFaceTime,
+        DeviceSupportsTethering,
+        DeviceSupportsSimplisticRoadMesh,
+        DeviceSupportsNavigation,
+        DeviceSupportsLineIn,
+        DeviceSupports9Pin,
+        DeviceSupports720p,
+        DeviceSupports4G,
+        DeviceSupports3DMaps,
+        DeviceSupports3DImagery,
+        DeviceSupports1080p
+    );
+    UniqueChipID = 8752901943344;
+    UniqueDeviceID = be43e5ceec0482d98dc5de9bf4a72ae494eeca52;
+    UniqueDeviceIDData = <be43e5ce ec0482d9 8dc5de9b f4a72ae4 94eeca52>;
+    UserAssignedDeviceName = iPhone;
+    WifiAddress = "d8:cf:9c:ef:76:bb";
+    WifiAddressData = <d8cf9cef 76bb>;
+    WifiVendor = Murata;
+}

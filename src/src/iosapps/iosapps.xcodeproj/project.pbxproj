@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BAFCB421E78E49D006897B5 /* iosapps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFCB3F1E78E49D006897B5 /* iosapps.cpp */; };
+		8BAFCB491E78EC4C006897B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAFCB481E78EC4C006897B5 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BAFCBA71E78F94B006897B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BAFCBA31E78F94B006897B5 /* mongoose.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8BAFCB8D1E78F4DF006897B5;
+			remoteInfo = mongoose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BAFCB301E78E446006897B5 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		8BAFCB311E78E446006897B5 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		8BAFCB331E78E446006897B5 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		8BAFCB361E78E446006897B5 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/bin/0xdeadfa11; sourceTree = "<group>"; };
+		8BAFCB3F1E78E49D006897B5 /* iosapps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iosapps.cpp; path = src/iosapps.cpp; sourceTree = "<group>"; };
+		8BAFCB481E78EC4C006897B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8BAFCBA31E78F94B006897B5 /* mongoose.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mongoose.xcodeproj; path = src/mongoose/mongoose.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BAFCB2A1E78E446006897B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAFCB491E78EC4C006897B5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAFCB241E78E446006897B5 = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB2D1E78E446006897B5 /* iosapps */,
+				8BAFCB471E78EC4C006897B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BAFCB2D1E78E446006897B5 /* iosapps */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB3E1E78E46C006897B5 /* src */,
+				8BAFCB2E1E78E446006897B5 /* Package */,
+				8BAFCB321E78E446006897B5 /* Supporting Files */,
+			);
+			path = iosapps;
+			sourceTree = "<group>";
+		};
+		8BAFCB2E1E78E446006897B5 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB2F1E78E446006897B5 /* DEBIAN */,
+				8BAFCB341E78E446006897B5 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		8BAFCB2F1E78E446006897B5 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB301E78E446006897B5 /* control.txt */,
+				8BAFCB311E78E446006897B5 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		8BAFCB321E78E446006897B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB331E78E446006897B5 /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAFCB341E78E446006897B5 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB351E78E446006897B5 /* bin */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		8BAFCB351E78E446006897B5 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB361E78E446006897B5 /* 0xdeadfa11 */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+		8BAFCB3E1E78E46C006897B5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCBA91E78F954006897B5 /* mongoose */,
+				8BAFCB3F1E78E49D006897B5 /* iosapps.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		8BAFCB471E78EC4C006897B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCB481E78EC4C006897B5 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BAFCBA41E78F94B006897B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCBA81E78F94B006897B5 /* libmongoose.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BAFCBA91E78F954006897B5 /* mongoose */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFCBA31E78F94B006897B5 /* mongoose.xcodeproj */,
+			);
+			name = mongoose;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAFCB2C1E78E446006897B5 /* iosapps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAFCB3B1E78E446006897B5 /* Build configuration list for PBXNativeTarget "iosapps" */;
+			buildPhases = (
+				8BAFCB291E78E446006897B5 /* Sources */,
+				8BAFCB2A1E78E446006897B5 /* Frameworks */,
+				8BAFCB2B1E78E446006897B5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosapps;
+			productName = iosapps;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BAFCB251E78E446006897B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					8BAFCB2C1E78E446006897B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9J9K2QW6UF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BAFCB281E78E446006897B5 /* Build configuration list for PBXProject "iosapps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BAFCB241E78E446006897B5;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8BAFCBA41E78F94B006897B5 /* Products */;
+					ProjectRef = 8BAFCBA31E78F94B006897B5 /* mongoose.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8BAFCB2C1E78E446006897B5 /* iosapps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8BAFCBA81E78F94B006897B5 /* libmongoose.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmongoose.a;
+			remoteRef = 8BAFCBA71E78F94B006897B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BAFCB2B1E78E446006897B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BAFCB291E78E446006897B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAFCB421E78E49D006897B5 /* iosapps.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BAFCB391E78E446006897B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: maksimbscmer@mail.ru (RHSGE366ED)";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+					"$(SDKROOT)/System/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				OTHER_CFLAGS = "-DMG_ENABLE_THREADS";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 127.0.0.1;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		8BAFCB3A1E78E446006897B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: maksimbscmer@mail.ru (RHSGE366ED)";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+					"$(SDKROOT)/System/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				OTHER_CFLAGS = "-DMG_ENABLE_THREADS";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 127.0.0.1;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		8BAFCB3C1E78E446006897B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9J9K2QW6UF;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				INFOPLIST_FILE = "$(SRCROOT)/iosapps/PackageVersion.plist";
+				INSTALL_PATH = /usr/bin;
+				OTHER_CFLAGS = "-DMG_ENABLE_THREADS";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbk.iosapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/iosapps/src/";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		8BAFCB3D1E78E446006897B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9J9K2QW6UF;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				INFOPLIST_FILE = "$(SRCROOT)/iosapps/PackageVersion.plist";
+				INSTALL_PATH = /usr/bin;
+				OTHER_CFLAGS = "-DMG_ENABLE_THREADS";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbk.iosapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/iosapps/src/";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BAFCB281E78E446006897B5 /* Build configuration list for PBXProject "iosapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAFCB391E78E446006897B5 /* Debug */,
+				8BAFCB3A1E78E446006897B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAFCB3B1E78E446006897B5 /* Build configuration list for PBXNativeTarget "iosapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAFCB3C1E78E446006897B5 /* Debug */,
+				8BAFCB3D1E78E446006897B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BAFCB251E78E446006897B5 /* Project object */;
+}

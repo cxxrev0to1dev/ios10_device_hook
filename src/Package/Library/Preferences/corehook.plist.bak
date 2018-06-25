@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APP_RANK_TARGET</key>
+	<string>1107832706</string>
+	<key>AddExecutablesFilter</key>
+	<true/>
+	<key>BluetoothAddress</key>
+	<string>90:3c:92:e5:69:5b</string>
+	<key>BluetoothAddressData</key>
+	<true/>
+	<key>DISABLE_SHOW_STORE_HOME</key>
+	<false/>
+	<key>InternationalMobileEquipmentIdentity</key>
+	<string>359249061448460</string>
+	<key>KEY</key>
+	<string>98</string>
+	<key>LIMIT_RANK_NUM</key>
+	<integer>2500</integer>
+	<key>MOBILE_GESTALT_HOOK</key>
+	<true/>
+	<key>SSL_KILL_HOOK</key>
+	<false/>
+	<key>SSL_RW_HOOK</key>
+	<false/>
+	<key>SerialNumber</key>
+	<string>F2MPH0NPG5QV</string>
+	<key>UDID</key>
+	<string>4a1b7e59439cff09751b61ef6e73c8aa8db19064</string>
+	<key>UniqueDeviceID</key>
+	<true/>
+	<key>UniqueDeviceIDData</key>
+	<true/>
+	<key>UniqueDeviceKey</key>
+	<dict>
+		<key>xOEH0P1H/1jmYe2t54+5cQ</key>
+		<string>MobileEquipmentIdentifier</string>
+		<key>QZgogo2DypSAZfkRW4dP/A</key>
+		<string>InternationalMobileEquipmentIdentity</string>
+		<key>VasUgeSzVyHdB27g2XpN0g</key>
+		<string>SerialNumber</string>
+		<key>gI6iODv8MZuiP0IA+efJCw</key>
+		<string>WifiAddress</string>
+		<key>eZS2J+wspyGxqNYZeZ/sbA</key>
+		<string>WifiAddressData</string>
+		<key>jSDzacs4RYWnWxn142UBLQ</key>
+		<string>BluetoothAddressData</string>
+		<key>k5lVWbXuiZHLA17KGiVUAA</key>
+		<string>BluetoothAddress</string>
+		<key>qNNddlUK+B/YlooNoymwgA</key>
+		<string>ProductVersion</string>
+		<key>nFRqKto/RuQAV1P+0/qkBA</key>
+		<string>UniqueDeviceIDData</string>
+	</dict>
+	<key>WifiAddress</key>
+	<string>90:3c:92:e5:69:5a</string>
+	<key>WifiAddressData</key>
+	<true/>
+	<key>bubbles</key>
+	<string>{&quot;type&quot;:0,&quot;id&quot;:&quot;1059716058&quot;,&quot;entity&quot;:&quot;software&quot;}</string>
+</dict>
+</plist>
